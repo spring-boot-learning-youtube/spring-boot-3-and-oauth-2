@@ -1,0 +1,18 @@
+Howdy!
+
+I work on the Spring team.
+
+This code repository is what I built during the following podcast episode:
+
+image:https://img.youtube.com/vi/73JCrReqv8Y/0.jpg[Spring Boot 3.0 + OAuth 2.0 = YouTube,link=https://www.youtube.com/watch?v=73JCrReqv8Y]
+
+This live stream has everything it takes to hook up a Spring Boot 3 application to Google and YouTube, including setting up the stuff on Google itself.
+
+During the broadcast, I hit a quirky scenario. My `YouTube` interface was public but its return type was not. Afterward, I
+patched it so that all works. I also added the CSS stylesheet that I alluded to during the broadcast.
+
+If you want more, then be sure to pre-order my up-and-coming book, https://springbootlearning.com/book[Learning Spring Boot 3.0 3rd Edition].
+
+Enjoy!
+
+–Greg

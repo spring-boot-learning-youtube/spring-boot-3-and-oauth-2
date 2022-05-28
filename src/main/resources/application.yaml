@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+           clientId: replace with your own clientId
+           clientSecret: replace with your own clientSecret
+           scope: openid,profile,email,https://www.googleapis.com/auth/youtube
+
+logging:
+  level:
+    com.springbootlearning: DEBUG
+    org.springframework.security: TRACE
+    org.springframework.security.oaut2: TRACE
+    org.springframework.web: TRACE
+    org.springframework.web.reactive: TRACE
